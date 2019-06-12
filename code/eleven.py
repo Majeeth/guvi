@@ -1,2 +1,2 @@
-x1,y1=map(int,input().split())
-print(x1**y1)
+r,k=map(int,input().split())
+print(r**k)
