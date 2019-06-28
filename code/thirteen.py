@@ -1,13 +1,13 @@
 global s
-n=int(input())
+numn=int(input())
 for i in range(2,12):
-    if(n%i==0 and n<=1000):
-        s='yes'
+    if(numn%i==0 and numn<=1000):
+        s='no'
         break
     else:
-        s='no'
+        s='yes'
         continue
-if(s=='yes'):
-    print('yes')
-else:
+if(s=='no'):
     print('no')
+else:
+    print('yes')
