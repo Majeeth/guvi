@@ -1,7 +1,7 @@
 global s
 numn=int(input())
 for i in range(2,12):
-    if(n==11):
+    if(numn==11):
         s='yes'
         break
     if(numn%i==0):
