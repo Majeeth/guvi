@@ -1,5 +1,7 @@
+
 lst=[]    
-s1=input()
+ss=input()
+s1=ss.lower()
 s=list(s1)
 for i in range(len(s)):
     if(i==0):
