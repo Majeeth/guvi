@@ -1,0 +1,5 @@
+str1=input()
+s=list(str1)
+s.append('.')
+s=''.join(s)
+print(s)
